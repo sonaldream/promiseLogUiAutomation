@@ -92,7 +92,7 @@ public class PromiseLogTestCases extends Base{
 	@Test (priority=4)
 	public void verify_promise_is_added(){
 		try {
-			homePage.clickOnPromisesList();
+			//homePage.clickOnPromisesList();
 			promisesListPage.selectpromisor();
 			promisesListPage.selectStartDateEndDateAndSearch();
 			boolean verifyAddedPromise=promisesListPage.verifyAddedPromise();
